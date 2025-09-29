@@ -9,7 +9,12 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
+<<<<<<< HEAD
     "build": "quasar build"
+=======
+    "build": "quasar build",
+    "dev": "quasar dev"
+>>>>>>> fcf0a23 (Add build script and compiled frontend files)
   },
   "dependencies": {
     "@quasar/app": "^2.4.3",
