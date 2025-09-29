@@ -8,7 +8,8 @@
   "license": "AGPL-3.0-or-later",
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build"
   },
   "dependencies": {
     "@quasar/extras": "^1.15.6",
@@ -67,7 +68,7 @@
     "last 5 Opera versions"
   ],
   "engines": {
-    "node": ">= 10.18.1",
+    "node": "16.x",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
   }
