@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider quasar build",
+    "build": "quasar build",
     "dev": "quasar dev"
   },
   "dependencies": {
@@ -70,6 +70,6 @@
     "last 5 Opera versions"
   ],
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   }
 }
